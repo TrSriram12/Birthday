@@ -1,0 +1,35 @@
+
+body{
+  background-size: cover;
+  background-repeat: repeat;
+}
+.fact p{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: ink free;
+    color: white;
+    border: 2px solid white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: larger ;
+    background-color: rgba(0, 0, 0, 0.336);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.btn{
+    border: none;
+    background-color:  #FF0066;
+    color: #ffffff;
+    font-size: 18px;
+    text-align:center;
+    font-family: Georgia;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.267);
+    margin-left: 43%;
+  }

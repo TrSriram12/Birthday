@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ffff00;
+}
+
+.container{
+    position: relative;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    position: relative;
+    background: #fff;
+    padding: 15px;
+    padding-bottom: 0;
+    margin: 25px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .3);
+}
+.card .imgbx{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .3s;
+}
+.card .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.card .floral{
+    position: relative;
+    width: 100%;
+    min-height: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.card .floral p{
+    text-transform: uppercase;
+    font-family: ink free;  
+    font-weight: bold;
+    font-size: medium;
+    height: 30px;  
+}
+
+.card.one{
+    transform: rotate(-5deg);
+}
+
+.card.two{
+    transform: rotate(-5deg);
+}
+.card.three{
+    transform: rotate(-5deg);
+}
+.card.four{
+    transform: rotate(-5deg);
+}
+.card.five{
+    transform: rotate(-5deg);
+}
+.card.six{
+    transform: rotate(-5deg);
+}
+.card.seven{
+    transform: rotate(-5deg);
+}
+.card.eight{
+    transform: rotate(-5deg);
+}
+.card.nine{
+    transform: rotate(-5deg);
+}
+
+.imgbx:hover img{
+    filter: grayscale(100%);
+}
+
+.card.one .imgbx:hover img,
+.card.two .imgbx:hover img{
+    transform: rotate(10deg) scale(1.3);
+
+}
+.card.three .imgbx:hover img,
+.card.four .imgbx:hover img{
+    transform: rotate(10deg) scale(1.3);
+
+}
+.card.five .imgbx:hover img,
+.card.six .imgbx:hover img{
+    transform: rotate(10deg) scale(1.3);
+
+}
+.card.seven .imgbx:hover img,
+.card.eight .imgbx:hover img{
+    transform: rotate(10deg) scale(1.3);
+
+}
+.card.nine .imgbx:hover img{
+    transform: rotate(10deg) scale(1.3);
+
+}
+
+.btn{
+    text-align: center;
+    font-size: 150px;
+    margin-left: 80%;
+    margin-top: 420%;
+    margin-bottom: 90%;
+    background: none;
+    padding-left: 2px;
+    border: none;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, .3);
+
+
+}
+
