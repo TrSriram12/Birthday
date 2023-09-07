@@ -1,0 +1,47 @@
+body{
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+.a{
+    color: #ff0066;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: ink free;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 15%;
+    text-shadow: #ffffff;
+    
+}
+
+.b{
+    color: rgb(255, 255, 0);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: ink free;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: -50px;
+}
+
+.btn{
+    text-align: center;
+    font-size: 150px;
+    margin-left: 80%;
+    margin-top: -40%;
+    background: none;
+    border: none;
+
+
+}
+
+.c{
+    color: aqua;
+    font-family: ink free;
+    text-align: right;
+    font-size: large;
+    margin-right: 20%;
+    margin-top: 10%;
+    padding-left: 40%;   
+}
